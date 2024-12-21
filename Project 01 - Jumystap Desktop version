@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Jumystap">
+    <title>Jumystap</title>
+    <link rel="stylesheet" href="./Project 01 - Jumystap Desktop version.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="introduction">
+        <div class="header">
+            <div class="nav-bar">
+                <span class="nav-bar__logo">
+                    <img src="JumysTap project/magnifier.png" alt="logo">
+                    <span>JumysTap</span>
+                </span>
+                <span class="nav-bar__list">
+                    <span id="home">Home</span>
+                    <span>About us</span>
+                    <span>How it works</span>
+                    <span class="get-started">Get Started</span>
+                </span>
+
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="text-section">
+            <h1>Get hired for <br> your skills, not <br> experience</h1>
+            <p>
+                The best tool to start your career journey with. Get connected<br> with the best companies — just share
+                your CV to get started.
+            </p>
+            <button>How It Works?</button>
+        </div>
+
+        <div class="image-section">
+            <img src="JumysTap project/desktop img/nFactorial Web Course/image 4.png" alt="Main Image"
+                class="main-image">
+            <img src="JumysTap project/desktop img/nFactorial Web Course/dollar 1.png" class="shape-1">
+            <img src="JumysTap project/desktop img/nFactorial Web Course/fire 1.png" class="shape-2">
+        </div>
+    </div>
+
+    <section class="section">
+        <p>Lorem Ipsum Description Text</p>
+        <h2 id="how-it-works">How It Works?</h2>
+
+        <div class="steps-container">
+            <div class="step step-1">
+                <img src="JumysTap project/desktop img/nFactorial Web Course (1)/1.png" alt="Step 1">
+                <h3>Show your best skills</h3>
+                <p>Upload your CV</p>
+            </div>
+
+            <div class="step step-2">
+                <img src="JumysTap project/desktop img/nFactorial Web Course (1)/Frame 17.png" alt="Step 2">
+                <h3>Search for the best match</h3>
+                <p>Lorem Ipsum Description Text</p>
+            </div>
+
+            <div class="step step-3">
+                <img src="JumysTap project/desktop img/nFactorial Web Course (1)/Frame 18.png" alt="Step 3">
+                <h3>Find the best opportunity</h3>
+                <p>Lorem Ipsum Description Text</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="start-container">
+            <h2 class="start-title">Lets Get Started</h2>
+            <p class="start-description">
+                The best tool to start your career journey with. Get connected<br> with the best companies — just share
+                your CV to get started.
+            </p>
+
+            <div class="search-wrapper">
+                <img src="JumysTap project/Search1.png" alt="Search" class="search-icon">
+                <input type="text" class="search-input" placeholder="Search for job by keywords">
+                <button class="search-button">Find Job</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="upload-section">
+        <div class="image-container">
+            <img src="JumysTap project/desktop img/nFactorial Web Course (2)/image 5.png" alt="Main Image"
+                class="mainimg">
+            <img src="JumysTap project/desktop img/nFactorial Web Course (2)/star 1.png" alt="Star"
+                class="white-element star">
+            <img src="JumysTap project/desktop img/nFactorial Web Course (2)/lightning 1.png" alt="Lightning"
+                class="white-element lightning">
+        </div>
+
+        <div class="text-container">
+            <h2>Upload your CV</h2>
+            <p>
+                The best tool to start your career journey with. Get connected <br>with the best companies — just share
+                your CV to get started.
+            </p>
+            <button class="upload-button">
+                <img src="JumysTap project/Upward Arrow.png" alt="Upload Icon">
+                Upload
+            </button>
+        </div>
+    </section>
+
+    <footer class="footer-wrapper">
+        <div class="footer-top">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a>About us</a>
+                <a href="#how-it-works">How it works</a>
+            </div>
+            <div class="footer-icons">
+                <img src="JumysTap project/desktop img/nFactorial Web Course (3)/Twitter.png" alt="Twitter"
+                    class="Twitter">
+                <img src="JumysTap project/desktop img/nFactorial Web Course (3)/Instagram.png" alt="Instagram"
+                    class="Instagram">
+            </div>
+        </div>
+
+        <div class="footer-credits">
+            Credits: photos from <a href="https://unsplash.com/@surface">Unsplash.com</a>, icons from <a
+                href="https://icons8.com/">Icons8</a>,
+            graphics from <a
+                href="https://craftwork.design/checkout/purchase-confirmation/?payment_key=a3ba0d28aa30dfd691cd535acb1f4228">craftwork.design</a>,
+            font Kanit from <a href="https://fonts.google.com/specimen/Kanit">fonts.google</a>
+            <div class="footer-love">
+                Made with ✨❤ at nFactorial in 2022.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
