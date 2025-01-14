@@ -1,3 +1,10 @@
+element-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     background: #F1F1F1;
     font-family: "Kanit", sans-serif;
@@ -51,8 +58,7 @@ body {
 .content-wrapper {
     display: flex;
     align-items: center;
-    max-width: 1200px;
-    padding: 20px;
+    padding: 20;
 }
 
 .content-wrapper button:hover {
@@ -62,7 +68,6 @@ body {
 
 .text-section {
     flex: 1;
-    max-width: 50%;
     padding: 75px 62px;
 }
 
@@ -99,9 +104,7 @@ body {
 .image-section {
     flex: 1;
     position: relative;
-    max-width: 50%;
     top: 10px;
-    left: 110px;
 }
 
 .main-image {
@@ -132,8 +135,6 @@ body {
 .section {
     background-color: #E1DEE7;
     border-radius: 30px;
-    max-width: 1370px;
-    width: 100%;
     text-align: center;
     padding: 40px 20px;
     margin-top: 45px;
@@ -311,21 +312,21 @@ body {
 
 .upload-section {
     display: flex;
-    gap: 40px;
     align-items: center;
-    margin-top: 150px;
-    margin-left: 70px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left: 60px;
 }
 
 .image-container {
+    flex: 1;
     position: relative;
-    width: 50%;
+    max-width: 50%;
     border-radius: 15px;
 }
 
 .mainimg {
     width: 620px;
-    display: block;
     border-radius: 22px;
 }
 
@@ -351,7 +352,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 
 .text-container h2 {
