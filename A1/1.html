@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8" />
+        <title>My First Webpage</title>
+
+        <link rel="stylesheet" href="1.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+                rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+        <!-- Step 1 -->
+        <header>
+                <h1>Zarina Mukhametkaiyr</h1>
+                <h2>Web Technologies (Frontend)</h2>
+                <h3 style="text-align:center; font-family: Ubuntu, sans-serif; color:#A9ADCE;">About Me</h3>
+                <p class="p1">
+                        I love dancing and I am deeply interested in the media sphere.
+                </p>
+        </header>
+
+        <!-- Step 6 -->
+        <table class="table" border="1" style="width: 90%; margin: 20px auto;">
+                <tr>
+                        <!-- Left column-->
+                        <td style="width: 25%; vertical-align: top; padding: 12px;">
+                                <!-- Menu -->
+                                <p class="p2"><b>Menu</b></p>
+                                <ul class="p2">
+                                        <li><a href="#hobbies" style="color:#A9ADCE;">Hobbies</a></li>
+                                        <li><a href="#websites" style="color:#A9ADCE;">Favorite Websites</a></li>
+                                        <li><a href="#photo" style="color:#A9ADCE;">My Photo</a></li>
+                                        <li><a href="#schedule" style="color:#A9ADCE;">Schedule</a></li>
+                                        <li><a href="#mood" style="color:#A9ADCE;">Mood</a></li>
+                                        <li><a href="#form" style="color:#A9ADCE;">Form</a></li>
+                                </ul>
+                        </td>
+
+                        <!-- Right column -->
+                        <td style="vertical-align: top; padding: 12px;">
+                                <!-- Step 2 -->
+                                <section id="hobbies">
+                                        <!-- Lists -->
+                                        <h2>My Hobbies</h2>
+                                        <ol class="p2">
+                                                <li>Dancing</li>
+                                                <li>Handicrafts</li>
+                                                <li>Reading</li>
+                                        </ol>
+                                </section>
+
+                                <section id="websites">
+                                        <h2>My Favorite Websites</h2>
+                                        <ul class="p2">
+                                                <li>Pinterest</li>
+                                                <li>KinoGo</li>
+                                                <li>YouTube</li>
+                                        </ul>
+
+                                        <!-- Step 3 -->
+                                        <p class="p2">
+                                                Links to another fav websites:
+                                                <a href="https://everynoise.com/engenremap.html" target="_blank"
+                                                        rel="noopener noreferrer" style="color:#A9ADCE;">
+                                                        Every Noise
+                                                </a>
+                                                |
+                                                <a href="https://dorama.land/all-dramas" target="_blank"
+                                                        rel="noopener noreferrer" style="color:#A9ADCE;">
+                                                        Dorama Land
+                                                </a>
+                                        </p>
+                                </section>
+
+                                <!-- Step 3 -->
+                                <section id="photo" class="image-section">
+                                        <!-- My Photo -->
+                                        <img src="me.jpg" class="image1" alt="My photo" />
+                                </section>
+
+                                <!-- Step 4 -->
+                                <section style="text-align:center; margin-top: 15px;">
+                                        <!-- Button -->
+                                        <button type="button" class="btn">Click Me</button>
+                                </section>
+
+                                <!-- Step 5 -->
+                                <section id="schedule" style="margin-top: 10px;">
+                                        <!-- Weekly Class Schedule -->
+                                        <h2>Weekly Class Schedule</h2>
+
+                                        <div class="table-section">
+                                                <table border="1" class="table">
+                                                        <tr>
+                                                                <th>Subject</th>
+                                                                <th>Day</th>
+                                                                <th>Time</th>
+                                                        </tr>
+                                                        <tr>
+                                                                <td>Web Technologies</td>
+                                                                <td>Friday</td>
+                                                                <td>08:00 - 09:00</td>
+                                                        </tr>
+                                                        <tr>
+                                                                <td>Photo-journalism</td>
+                                                                <td>Friday</td>
+                                                                <td>11:00 - 12:00</td>
+                                                        </tr>
+                                                        <tr>
+                                                                <td>Introduction to Leadership</td>
+                                                                <td>Friday</td>
+                                                                <td>12:00 - 14:00</td>
+                                                        </tr>
+                                                </table>
+                                        </div>
+                                </section>
+
+                                <!-- Step 7 -->
+                                <section id="mood" style="text-align:center; margin-top: 15px;">
+                                        <!-- Mood -->
+                                        <p class="p2">
+                                                My mood today: tired 😩, excited 😅 and inspired ✨
+                                        </p>
+                                </section>
+
+                                <!-- Step 8 -->
+                                <section id="form" class="form1" style="text-align:center; margin-top: 15px;">
+                                        <!-- Form -->
+                                        <form action="#" method="post">
+                                                <p><b>Contact Form</b></p>
+
+                                                <p>
+                                                        <label>
+                                                                Name:
+                                                                <input type="text" name="name" required />
+                                                        </label>
+                                                </p>
+
+                                                <p>
+                                                        <label>
+                                                                Email:
+                                                                <input type="email" name="email" required />
+                                                        </label>
+                                                </p>
+
+                                                <p>
+                                                        <label>
+                                                                Favorite Color:
+                                                                <input type="color" name="color" value="#A9ADCE" />
+                                                        </label>
+                                                </p>
+
+                                                <button type="submit" class="btn">Submit</button>
+                                        </form>
+                                </section>
+                        </td>
+                </tr>
+        </table>
+
+        <footer class="f1">
+                <p>Created by Zarina | 2026</p>
+        </footer>
+</body>
+
+</html>

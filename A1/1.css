@@ -1,0 +1,83 @@
+body {
+    background: #1C1D29;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color: #A9ADCE;
+    font-size: 50px;
+}
+
+.p1 {
+    text-align: center;
+    font-family: Montserrat;
+    color: #A9ADCE;
+    font-size: 20px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image1 {
+    width: 400px;
+    margin-top: 15px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.table-section {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.table {
+    color: #A9ADCE;
+    font-family: Montserrat;
+    font-size: 15px;
+    border-color: rgb(73, 96, 116);
+    margin-top: 20px;
+}
+
+.p2 {
+    margin-top: 0;
+    font-family: Montserrat;
+    color: #A9ADCE;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color: #A9ADCE;
+    font-size: 40px;
+}
+
+.form1 {
+    color: #A9ADCE;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 5px 20px;
+    background-color: #A9ADCE;
+    color: #1C1D29;
+    border-radius: 30%;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Ubuntu;
+}
+
+.f1 {
+    color: #A9ADCE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: right;
+}
