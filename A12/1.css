@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #f1f3ff;
+}
+
+h1,
+h2,
+h3 {
+    color: #a9adce;
+}
+
+h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+a {
+    color: #ffd166;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.page-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 24px 0 40px;
+}
+
+.header-box,
+.footer-box,
+.content-section,
+.sidebar {
+    background-color: #2a2d3f;
+    border: 2px solid #4f567d;
+    border-radius: 16px;
+    margin: 1rem 0;
+    padding: 1.5rem;
+}
+
+.site-header,
+.site-footer {
+    text-align: center;
+}
+
+.badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background-color: #a9adce;
+    color: #1c1d29;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.layout {
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 26%;
+    float: left;
+}
+
+.main-content {
+    width: 71%;
+    float: right;
+}
+
+.menu-list {
+    padding-left: 1.2rem;
+}
+
+.menu-list li {
+    margin-bottom: 0.8rem;
+    font-size: 1em;
+}
+
+.styled-list li {
+    margin-bottom: 0.6em;
+}
+
+.highlight {
+    background-color: rgba(255, 209, 102, 0.12);
+    border-left: 4px solid #ffd166;
+    padding: 0.9rem;
+    border-radius: 10px;
+}
+
+#main-heading {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.profile-image {
+    width: 55%;
+    max-width: 380px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 4px solid #a9adce;
+}
+
+.size-demo {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #6f7ab0;
+    padding: 12px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #3a3f5b;
+}
+
+.contact-form {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-top: 0.4rem;
+    padding: 0.75rem;
+    border: 1px solid #6f7ab0;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.contact-form input[type="color"] {
+    height: 48px;
+    padding: 0.2rem;
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: #a9adce;
+    color: #1c1d29;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.box-demo {
+    margin-top: 1.25rem;
+    padding: 1.5rem;
+}
+
+.static-box {
+    position: static;
+}
+
+.position-wrapper {
+    position: relative;
+    min-height: 320px;
+}
+
+.position-demo {
+    width: 140px;
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 700;
+    color: #1c1d29;
+    background-color: #ffd166;
+    margin-bottom: 1rem;
+}
+
+.static-demo {
+    position: static;
+}
+
+.relative-demo {
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: #b8f2e6;
+}
+
+.absolute-demo {
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    background-color: #f7a8b8;
+}
+
+.float-left,
+.float-right {
+    width: 45%;
+    padding: 1.2rem;
+    border-radius: 12px;
+    background-color: #3a3f5b;
+    text-align: center;
+    font-weight: 600;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-box {
+    clear: both;
+    margin-top: 7rem;
+    padding: 1rem;
+    background-color: rgba(169, 173, 206, 0.18);
+    border-radius: 12px;
+}
+
+.site-footer p {
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a9adce;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+
+    .sidebar,
+    .main-content,
+    .float-left,
+    .float-right {
+        float: none;
+        width: 100%;
+    }
+
+    .absolute-demo {
+        position: static;
+    }
+
+    .clear-box {
+        margin-top: 1rem;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: auto;
+    }
+}
