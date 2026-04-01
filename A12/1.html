@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My First Webpage</title>
+        <link rel="icon" type="image/png" href="favicon.ico" />
+        <link rel="stylesheet" href="1.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+                rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+
+        <style>
+                body {
+                        background-color: #1c1d29;
+                }
+
+                h2 {
+                        font-family: "Ubuntu", sans-serif;
+                        letter-spacing: 0.04em;
+                }
+
+                .internal-note {
+                        text-align: center;
+                        color: #f1f3ff;
+                        font-size: 1rem;
+                        margin-top: 0.5rem;
+                }
+        </style>
+</head>
+
+<body>
+        <div class="page-wrapper">
+                <div class="header-box">
+                        <header class="site-header">
+                                <p class="badge">Frontend • Assignment 2</p>
+                                <h1 id="main-heading">Zarina Mukhametkaiyr</h1>
+                                <h2>Web Technologies (Frontend)</h2>
+                                <p class="internal-note">Frontend practice project</p>
+                                <p style="color: #ffd166; text-align: center; font-family: Montserrat, sans-serif;">
+                                        I love dancing and I am deeply interested in the media sphere.
+                                </p>
+                        </header>
+                </div>
+
+                <div class="layout">
+                        <aside class="sidebar box-demo static-box">
+                                <h2>Menu</h2>
+                                <nav>
+                                        <ul class="menu-list">
+                                                <li><a href="#about">About me</a></li>
+                                                <li><a href="#hobbies">Hobbies</a></li>
+                                                <li><a href="#websites">Favorite websites</a></li>
+                                                <li><a href="#photo">My photo</a></li>
+                                                <li><a href="#schedule">Schedule</a></li>
+                                                <li><a href="#mood">Mood</a></li>
+                                                <li><a href="#contact">Form</a></li>
+                                                <li><a href="#positioning">Positioning</a></li>
+                                                <li><a href="#float-layout">Float and clear</a></li>
+                                        </ul>
+                                </nav>
+                        </aside>
+
+                        <main class="main-content">
+                                <div class="content-section box-demo" id="about">
+                                        <h2>About Me</h2>
+                                        <p class="highlight">
+                                                I enjoy creative activities, especially dancing, handicrafts, and
+                                                reading.
+                                        </p>
+                                        <p>
+                                                Creativity is an important part of my life.
+                                        </p>
+                                </div>
+
+                                <div class="content-section box-demo" id="hobbies">
+                                        <h2>My Hobbies</h2>
+                                        <ol class="styled-list">
+                                                <li>Dancing</li>
+                                                <li>Handicrafts</li>
+                                                <li>Reading</li>
+                                        </ol>
+                                </div>
+
+                                <div class="content-section box-demo" id="websites">
+                                        <h2>My Favorite Websites</h2>
+                                        <ul class="styled-list">
+                                                <li>Pinterest</li>
+                                                <li>KinoGo</li>
+                                                <li>YouTube</li>
+                                        </ul>
+                                        <p class="highlight">
+                                                More links:
+                                                <a href="https://everynoise.com/engenremap.html" target="_blank"
+                                                        rel="noopener noreferrer">Every Noise</a>
+                                                |
+                                                <a href="https://dorama.land/all-dramas" target="_blank"
+                                                        rel="noopener noreferrer">Dorama Land</a>
+                                        </p>
+                                </div>
+
+                                <div class="content-section box-demo" id="photo">
+                                        <h2>My Photo</h2>
+                                        <div class="image-section">
+                                                <img src="me.jpg" class="profile-image" alt="My photo" />
+                                        </div>
+                                        <p class="size-demo">
+                                                One of my favorite photos
+                                        </p>
+                                </div>
+
+                                <div class="content-section box-demo" id="schedule">
+                                        <h2>Weekly Class Schedule</h2>
+                                        <table class="schedule-table">
+                                                <tr>
+                                                        <th>Subject</th>
+                                                        <th>Day</th>
+                                                        <th>Time</th>
+                                                </tr>
+                                                <tr>
+                                                        <td>Web Technologies</td>
+                                                        <td>Friday</td>
+                                                        <td>08:00 - 09:00</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>Photo-journalism</td>
+                                                        <td>Friday</td>
+                                                        <td>11:00 - 12:00</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>Introduction to Leadership</td>
+                                                        <td>Friday</td>
+                                                        <td>12:00 - 14:00</td>
+                                                </tr>
+                                        </table>
+                                </div>
+
+                                <div class="content-section box-demo" id="mood">
+                                        <h2>My Mood Today</h2>
+                                        <p class="highlight">Tired 😩, excited 😅, and inspired ✨</p>
+                                        <button type="button" class="btn">Click Me</button>
+                                </div>
+
+                                <div class="content-section box-demo" id="contact">
+                                        <h2>Contact Form</h2>
+                                        <form class="contact-form" action="#" method="post">
+                                                <label>
+                                                        Name:
+                                                        <input type="text" name="name" required />
+                                                </label>
+
+                                                <label>
+                                                        Email:
+                                                        <input type="email" name="email" required />
+                                                </label>
+
+                                                <label>
+                                                        Favorite Color:
+                                                        <input type="color" name="color" value="#a9adce" />
+                                                </label>
+
+                                                <button type="submit" class="btn">Submit</button>
+                                        </form>
+                                </div>
+
+                                <div class="content-section position-wrapper box-demo" id="positioning">
+                                        <h2>CSS Positioning</h2>
+                                        <div class="position-demo static-demo">Static</div>
+                                        <div class="position-demo relative-demo">Relative</div>
+                                        <div class="position-demo absolute-demo">Absolute</div>
+                                </div>
+
+                                <div class="content-section box-demo" id="float-layout">
+                                        <h2>Float and Clear</h2>
+                                        <div class="float-left">Left floated box</div>
+                                        <div class="float-right">Right floated box</div>
+                                        <div class="clear-box">
+                                                Simple <strong>two-column</strong>
+                                                layout example
+                                        </div>
+                                </div>
+                        </main>
+                </div>
+
+                <div class="footer-box">
+                        <footer class="site-footer">
+                                <p>Created by Zarina | 2025</p>
+                        </footer>
+                </div>
+        </div>
+</body>
+
+</html>
