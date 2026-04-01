@@ -266,27 +266,4 @@ a:hover {
     color: #a9adce;
     margin: 0;
 }
-
-@media (max-width: 900px) {
-
-    .sidebar,
-    .main-content,
-    .float-left,
-    .float-right {
-        float: none;
-        width: 100%;
-    }
-
-    .absolute-demo {
-        position: static;
-    }
-
-    .clear-box {
-        margin-top: 1rem;
-    }
-
-    .profile-image {
-        width: 100%;
-        height: auto;
-    }
-}
+} 
