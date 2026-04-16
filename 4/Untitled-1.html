@@ -1,337 +1,90 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AniFan - Главная</title>
-  <link rel="icon" type="image/png" href="favicon.ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sekuya&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zarina Portfolio</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&family=Montserrat:wght@400;600&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid px-4">
-        <a class="logo d-flex align-items-center" href="#">
-          <img src="favicon.ico" alt="AniFan logo" id="logo-img">
-          <span id="logo-text">AniFan</span>
-        </a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-asphalt">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="favicon.ico" alt="logo" width="40" height="40" class="me-2">
+        Zarina Portfolio
+      </a>
+    </div>
+  </nav>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav ms-auto nav-links align-items-lg-center">
-            <li class="nav-item"><a class="nav-link" href="#anime">Аниме</a></li>
-            <li class="nav-item"><a class="nav-link" href="#manga">Манга</a></li>
-            <li class="nav-item"><a class="nav-link" href="#games">Игры</a></li>
-            <li class="nav-item"><a class="nav-link" href="#gallery">Галерея</a></li>
-            <li class="nav-item"><a class="nav-link" href="#news">Новости</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
-          </ul>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2 class="section-title">My Works</h2>
+        <div class="row g-4">
+          <div class="col-md-4"><img src="1-_DSC0860.jpg" class="portfolio-img" alt="project1"></div>
+          <div class="col-md-4"><img src="2-_DSC0857.jpg" class="portfolio-img" alt="project2"></div>
+          <div class="col-md-4"><img src="8-_DSC0795.jpg" class="portfolio-img" alt="project3"></div>
+          <div class="col-md-4"><img src="22-_DSC0616.jpg" class="portfolio-img" alt="project4"></div>
+          <div class="col-md-4"><img src="23-_DSC0615.jpg" class="portfolio-img" alt="project5"></div>
+          <div class="col-md-4"><img src="9-_DSC0794.jpg" class="portfolio-img" alt="project6"></div>
+          <div class="col-md-4"><img src="15-_DSC0723 (2).jpg" class="portfolio-img" alt="project7"></div>
+          <div class="col-md-4"><img src="16-_DSC0721.jpg" class="portfolio-img" alt="project8"></div>
+          <div class="col-md-4"><img src="41-_DSC0353.jpg" class="portfolio-img" alt="project9"></div>
         </div>
-      </div>
-    </nav>
-  </header>
 
-  <main class="container-fluid main-container px-4">
-    <section id="gallery" class="gallery-section mb-5">
-      <div class="d-flex justify-content-between align-items-center mb-3">
-        <h2 class="section-title">Галерея</h2>
-        <div class="gallery-controls">
-          <button class="btn btn-sm btn-outline-light">‹</button>
-          <button class="btn btn-sm btn-outline-light">›</button>
-        </div>
-      </div>
-
-      <div class="gallery-grid">
-        <img src="Naruto.jpg" alt="gallery1" class="gallery-img">
-        <img src="Berserk.jpg" alt="gallery2" class="gallery-img">
-        <img src="Dragon Ball FighterZ.jpg" alt="gallery3" class="gallery-img">
-        <img src="All JoJos.jpg" alt="gallery4" class="gallery-img">
-        <img src="Bleach.jpg" alt="gallery5" class="gallery-img">
-        <img src="Goodbye,_Eri.jpg" alt="gallery6" class="gallery-img">
-      </div>
-    </section>
-
-    <div class="row g-4">
-      <aside id="sidebar" class="col-12 col-md-2">
-        <div class="box sidebar-box">
-          <h3 class="box-title">Поиск</h3>
-          <form id="search-form" class="search-box mb-3" action="#" method="get">
-            <div class="input-group">
-              <input type="search" name="q" class="form-control" placeholder="Поиск..." />
-              <button class="btn btn-accent" type="submit">Найти</button>
-            </div>
-          </form>
-
-          <h3 class="box-title">Категории</h3>
-          <ul class="list-unstyled categories mb-3">
-            <li><a href="#">Жанры</a></li>
-            <li><a href="#">Год</a></li>
-            <li><a href="#">Страна</a></li>
-            <li><a href="#">Сериалы</a></li>
-            <li><a href="#">Фильмы</a></li>
-          </ul>
-
-          <h3 class="box-title">Жанры</h3>
-          <div class="genres">
-            <button class="chip">Экшен</button>
-            <button class="chip">Приключения</button>
-            <button class="chip">Романтика</button>
-            <button class="chip">Фэнтези</button>
-            <button class="chip">Исекай</button>
-          </div>
-        </div>
-      </aside>
-
-      <section id="content" class="col-12 col-md-8">
-        <div id="anime" class="box content-box mb-4">
-          <div class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="section-title">Аниме</h2>
-            <a class="link-more" href="#">Все аниме ></a>
-          </div>
-
-          <div class="row g-4">
-            <div class="col-12 col-sm-6 col-lg-4">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="Bleach.jpg" alt="anime1" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Bleach</h4>
-                  <p class="card-sub">Adventure • 2004</p>
-                  <div class="card-actions">
-                    <a href="https://old.yummyani.me/catalog/item/blich" class="card-btn">Смотреть</a>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="OnePiece.jpg" alt="anime2" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">One Piece</h4>
-                  <p class="card-sub">Fantasy • 1999</p>
-                  <div class="card-actions">
-                    <a href="https://old.yummyani.me/catalog/item/van-pis-tv" class="card-btn">Смотреть</a>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="Berserk.jpg" alt="anime3" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Berserk</h4>
-                  <p class="card-sub">Action • 1997</p>
-                  <div class="card-actions">
-                    <a href="https://old.yummyani.me/catalog/item/berserk" class="card-btn">Смотреть</a>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="Naruto.jpg" alt="anime4" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Naruto</h4>
-                  <p class="card-sub">Shonen • 2002</p>
-                  <div class="card-actions">
-                    <a href="https://old.yummyani.me/catalog/item/naruto-tv-1" class="card-btn">Смотреть</a>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="Nippon.jpg" alt="anime5" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Nippon Sangoku</h4>
-                  <p class="card-sub">Shonen • 2026</p>
-                  <div class="card-actions">
-                    <a href="https://old.yummyani.me/catalog/item/troecarstvie-yaponii" class="card-btn">Смотреть</a>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="Haikyu!!.jpg" alt="anime6" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Haikyu!!</h4>
-                  <p class="card-sub">Shonen • 2012</p>
-                  <div class="card-actions">
-                    <a href="https://old.yummyani.me/catalog/item/volejbol-tv-1" class="card-btn">Смотреть</a>
-                  </div>
-                </div>
-              </article>
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="video-card">
+              <h5 class="video-title">Video Project</h5>
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/-qDlY071OFg" title="YouTube video" allowfullscreen></iframe>
+              </div>
+              <p class="video-desc">Mass-media video project</p>
             </div>
           </div>
         </div>
+      </div>
 
-        <div id="manga" class="box content-box mb-4">
-          <div class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="section-title">Манга</h2>
-            <a class="link-more" href="#">Все манги ></a>
-          </div>
-
-          <div class="row g-4">
-            <div class="col-12 col-sm-6 col-lg-6">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="OyasumiPunpun.jpg" alt="manga1" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Oyasumi PunPun</h4>
-                  <p class="card-sub">Inio Asano • 2008</p>
-                  <div class="card-actions">
-                    <a href="https://mangalib.me/ru/manga/2262--oyasumi-punpun?ui=2199325" class="card-btn">Читать</a>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-6">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="Goodbye,_Eri.jpg" alt="manga2" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Goodbye, Eri
-                  </h4>
-                  <p class="card-sub">Tatsuki Fujimoto • 2022</p>
-                  <div class="card-actions">
-                    <a href="https://mangalib.me/ru/manga/122925--goodbye-eri?from=catalog&ui=2199325"
-                      class="card-btn">Читать</a>
-                  </div>
-                </div>
-              </article>
-            </div>
+      <aside class="col-lg-4 info">
+        <div class="card mb-3">
+          <img src="me.jpg" class="card-img-top profile-img" alt="Zarina">
+          <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <p class="card-text">DJ student, interested in media and design.</p>
           </div>
         </div>
-
-        <div id="games" class="box content-box mb-4">
-          <div class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="section-title">Игры</h2>
-            <a class="link-more" href="#">Все игры ></a>
-          </div>
-
-          <div class="row g-4">
-            <div class="col-12 col-sm-6 col-lg-4">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="All JoJos.jpg" alt="game1" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">JoJo's All-Star Battle R</h4>
-                  <p class="card-sub">Steam • Fighting</p>
-                  <div class="card-actions">
-                    <a href="https://store.steampowered.com/app/1372110/JoJos_Bizarre_Adventure_AllStar_Battle_R/"
-                      class="card-btn" target="_blank" rel="noopener">Больше информации</a>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="NarutoSh.jpg" alt="game2" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">NARUTO SHIPPUDEN</h4>
-                  <p class="card-sub">Steam • Fighting</p>
-                  <div class="card-actions">
-                    <a href="https://store.steampowered.com/app/349040/NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_4/"
-                      class="card-btn" target="_blank" rel="noopener">Больше информации</a>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <article class="card item-card">
-                <div class="card-media">
-                  <img src="Dragon Ball FighterZ.jpg" alt="game3" class="card-img">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">DRAGON BALL FighterZ</h4>
-                  <p class="card-sub">Steam • Fighting</p>
-                  <div class="card-actions">
-                    <a href="https://store.steampowered.com/app/678950/DRAGON_BALL_FighterZ/" class="card-btn"
-                      target="_blank" rel="noopener">Больше информации</a>
-                  </div>
-                </div>
-              </article>
-            </div>
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <p class="card-text">Astana IT University - Digital Journalism</p>
           </div>
         </div>
-      </section>
-
-      <aside id="news" class="col-12 col-md-2">
-        <div class="box news-box">
-          <h3 class="box-title">Новости</h3>
-
-          <div class="news-item">
-            <h5 class="news-title">Новый сезон аниме объявлен</h5>
-            <p class="news-text">Короткое описание новости, пара строк для превью...</p>
-            <a href="#" class="news-link">Читать</a>
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Hobbies</h5>
+            <ul>
+              <li>Dancing</li>
+              <li>Photo-journalism</li>
+              <li>Web-design</li>
+            </ul>
           </div>
-
-          <div class="news-item">
-            <h5 class="news-title">Релиз игры по манге</h5>
-            <p class="news-text">Короткое описание новости, пара строк для превью...</p>
-            <a href="#" class="news-link">Читать</a>
-          </div>
-
-          <hr class="news-sep">
-
-          <h4 class="box-title">Обсуждение</h4>
-          <p class="small">Последние обсуждения и комментарии сообщества...</p>
         </div>
       </aside>
     </div>
+  </div>
 
-    <footer id="contacts" class="footer mt-5">
-      <div class="container-fluid px-4">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <p class="footer-text mb-0">© AniFan — Все права защищены • Zarina</p>
-          </div>
-          <div class="col-md-6 text-md-end">
-            <a href="https://www.instagram.com/jca.aitu" class="social" style="color: #a9adce;">Instagram</a>
-            <a href="https://t.me/jcaaitunews" class="social ms-3" style="color: #a9adce;">Telegram</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </main>
+  <footer class="text-center bg-asphalt text-light py-4">
+    <h5>Contacts</h5>
+    <p>Email: mukhiryn@gmail.com</p>
+    <p>Instagram: @zmukhametkaiyr</p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
