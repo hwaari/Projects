@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment #6</title>
+</head>
+
+<body>
+  <h2>Changing Content</h2>
+  <p id="myParagraph">Это исходный текст.</p>
+  <button onclick="changeText()">Change Text</button>
+
+  <h2>Changing Styles</h2>
+  <div id="myDiv">Текст внутри блока</div>
+  <button onclick="changeBackground()">Change Background</button>
+  <button onclick="changeFontSize()">Change Font Size</button>
+
+  <h2>Creating & Removing Elements</h2>
+  <ul id="myList">
+    <li>Item 1</li>
+  </ul>
+  <button onclick="addItem()">Add Item</button>
+  <button onclick="removeItem()">Remove Item</button>
+
+  <script>
+    console.log("Your Name, Your Group");
+    alert("Hello, JavaScript World!");
+
+    let myString = "Hello";
+    let myNumber = 42;
+    let myBoolean = true;
+
+    console.log("String:", myString);
+    console.log("Number:", myNumber);
+    console.log("Boolean:", myBoolean);
+
+    let sum = 10 + 5;
+    let product = 10 * 5;
+    console.log("Sum:", sum);
+    console.log("Product:", product);
+
+    let concatenated = myString + " World!";
+    console.log("Concatenated:", concatenated);
+
+    function changeText() {
+      document.getElementById("myParagraph").textContent = "Текст изменён!";
+    }
+
+    function changeBackground() {
+      document.getElementById("myDiv").style.backgroundColor = "lightblue";
+    }
+    function changeFontSize() {
+      document.getElementById("myDiv").style.fontSize = "24px";
+    }
+
+    function addItem() {
+      let li = document.createElement("li");
+      li.textContent = "New Item";
+      document.getElementById("myList").appendChild(li);
+    }
+    function removeItem() {
+      let list = document.getElementById("myList");
+      if (list.lastElementChild) {
+        list.removeChild(list.lastElementChild);
+      }
+    }
+  </script>
+</body>
+
+</html>
